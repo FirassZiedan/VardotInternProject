@@ -1,0 +1,39 @@
+<script>
+
+        $(document).ready( function(){
+
+             var xc =$(window).width() ;
+             xc = xc -110;
+
+        $('#searchbox').click(function () {
+
+            if ($('#boxsearch').outerWidth() != 160 ||  $('#boxsearch').outerWidth() != xc ){
+              if ($(window).width() >= 978)  {
+                $('#boxsearch').css({"width":"160px" , "border":"solid 2px #b6b6b6"}) ;
+              }else{
+                 $('#boxsearch').css({"width":xc , "border":"solid 2px #b6b6b6"}) ;
+
+                $('#socialbar').css({"float" : "right" }) ;
+                }
+            }else{
+               $('#boxsearch').css({"width":"0" , "border":"0"}) ;
+            }
+
+             if ($('#boxsearch').outerWidth() >= 160 ){
+                  $('#boxsearch').css({"width":"0" , "border":"0"}) ;
+                  $('#socialbar').css({"float" : "none" }) ;
+             }
+
+           });
+
+
+            if ($(window).width() >= 978)  {
+                $('.collapse').collapse("show") ;
+               $('a[data-toggle="collapse"]').click(function(e){
+                    e.stopPropagation();
+                });
+            }
+
+            $(window).resize(function(){location.reload();});
+        });
+</script>

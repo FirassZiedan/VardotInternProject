@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8ff;
+}
+
+#picrow{
+    height: 155px;
+    width: 100%;
+}
+#rowsize{
+    padding: 5px;
+}
+#butt{
+    width: 100px;
+    display: block;
+    margin: 3px;
+}
+#butttop{
+    margin-top: 20px;
+}

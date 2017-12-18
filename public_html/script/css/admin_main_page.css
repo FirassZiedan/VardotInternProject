@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #021a4e;
+}
+#menu{
+    background-color: #021a4e;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0 ;
+    height: 100%;
+    /*position: fixed;*/
+    left: 0;
+    padding-top: 20px;
+     height: 88vh;  
+}
+#meunfont{
+        color: #ffffff ;
+}
+
+#contpage{
+   padding-right: 0;
+   background-color: #f8f8ff;
+}
+.menuitem{
+    width: 100% ;
+}
+#user{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+}
+#adminname{
+  padding-top: 20px;   
+  padding-left: 10px;
+}
+#login{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+#loginfont{
+    float:right ;
+      color: #ffffff;
+}
+a:active{
+     text-decoration: none;
+     color: #021a4e;
+}
+a:hover{
+    text-decoration: none;
+    color: #6263e3;
+}
+li > a:hover {
+    background-color: #002e93 ;
+}
+
+
+#fream{
+    border: 0 ;
+    width: 100%;
+
+    height: 89.8vh;    
+}

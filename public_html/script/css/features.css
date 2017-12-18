@@ -1,0 +1,31 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8ff;
+}
+.fpic{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 263px;
+    height: 263px;
+}
+
+#msg{
+    width: 265px;
+    height: auto;
+
+    margin-bottom: 10px;
+}
+.row{
+    margin-bottom: 25px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    margin-left: 145px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

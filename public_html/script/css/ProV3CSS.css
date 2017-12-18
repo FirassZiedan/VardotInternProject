@@ -1,0 +1,597 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+#logo{
+    float: left;
+    margin-left: 151px;
+    margin-top: 13px;
+    margin-bottom: 14px;
+}
+#socialbox{
+    float: right;
+    margin-top: 25px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    margin-right: 162px;
+
+}
+.sbox{
+    height:24px ;
+    width: 25px;
+    margin: 3px ;
+}
+#searbox{
+      height:0px ;
+    width: 0px;
+    float: right;
+
+    }
+
+#searchbox{
+    height:25px ;
+    width: 25px;
+    margin: 3px ;
+    margin-left: 32px;
+    margin-right: 10px;
+
+}
+#boxsearch{
+    z-index: 0;
+    width: 0;
+    border: 0;
+    position: relative ;
+    transition: all 300ms;
+}
+#searchbar{
+    display: inline-block;
+}
+#socialbar{
+    display: inline-block;
+ }
+
+#menu{
+    width: 100% ;
+    background-color: #021a4e;
+    align-content: center;
+    float: none;
+    display: inline-block;
+    margin-bottom: 0;
+    border: 0;
+    height: 39px;
+}
+.menufont{
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      color: #ffffff;
+      margin-right: 41px;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+ .navbar-default ul.navbar-nav > li > a:hover {
+    background-color: #002e93 ;
+
+}
+#white{
+      color: #ffffff;
+}
+#menubott{
+     background-color: #021a4e;
+    border: 0;
+}
+#menubott :visited{
+     background-color: #021a4e;
+}
+
+
+#mainpic{
+    position: relative;
+    height: 565px;
+    width: 100%;
+}
+#camppic{
+    position: relative;
+    width: 100%;
+    height: 100% ;
+
+}
+#pictext{
+  position: absolute;
+    margin-top: 3%;
+    margin-right: 10%;
+    top: 75px;
+    width: 35%;
+    
+    right: 0px;
+    background-color: rgba(2, 26, 78, 0.8);
+    border: 0px solid;
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+    padding-left: 5%;
+    padding-right: 5%
+
+}
+.textpicfont {
+  margin-top: 15px;
+  
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+  font-family: TrajanPro;
+  font-size: 40px;
+   line-height: 1.63;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+
+.cube{
+    width: 261px;
+    height: 263px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    float: right;
+    padding: 1px;
+    position: relative;
+}
+.imgcube{
+     width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.textcube {
+  width: 100%;
+  height: 51px;
+  background-color: rgba(2, 26, 78, 0.8);
+  position: absolute;
+  margin-top: 212px;
+
+}
+.textcudefont {
+  margin-top: 15px;
+  height: 22px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+}
+#sr{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+#news{
+    margin-top: 15px;
+    height: auto;
+    width: 555px;
+    background-color: #f3f3f3;
+    object-fit: contain;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#newspage{
+    height: auto;
+    width: 100%;
+    background-color: #f3f3f3;
+    object-fit: contain;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#ne{
+    margin-top: 60px;
+    padding-right: 50px;
+    margin-bottom: 80px;
+}
+.newsbox{
+    margin-top: 20px;
+}
+#underline{
+  border-bottom: solid 2px #d5d5d5;
+}
+.newswordfont {
+  width: 108px;
+  height: 49px;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  color: #021a4f;
+    border-bottom: solid 1px #021a4e;
+
+}
+.fontcolor{
+    font-family: Open Sans;
+     color: #021a4f;
+   /* font-size: 14px;*/
+}
+#eventword{
+ font-family: Open Sans;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #021a4f;
+
+
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.newsdesc{
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #4a4a4a;
+}
+.readmore {
+    display: block;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #021a4f;
+
+    text-align: right;
+}
+#numbord{
+    background-color: #021a4e;
+    display: block;
+}
+.bordimg{
+    width: 100%;
+}
+.eventcard{
+    height: 438px;
+    width: 360px;
+    position: relative;
+    float: none;
+    padding: 1px;
+    display: inline-block;
+    padding: 0;
+}
+#evtit{
+    margin: 10px;
+    width: 100%;
+    position: relative;
+    float: none;
+}
+#evimg{
+    width: 100%;
+    height: 189px;
+    margin: 0;
+    position: relative;
+}
+.eventcal{
+    position: absolute;
+    top : 10px;
+    right: 25px;
+}
+.eventdate{
+    position: absolute;
+    top: 40px;
+    right: 57px;
+     font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.06;
+  color: #021a4f;
+}
+.eventdate1{
+    position: absolute;
+    top:60px;    
+    right: 5px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.58;
+    color: #021a4f;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#evcards{
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 133px;
+    padding-right: 123px;
+
+}
+.learnmore{
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #021a4f;
+    margin-right: 20px;
+    text-align: right;
+}
+.description{
+    margin: 10px;
+}
+.maincont{
+     border: solid 1px #cecece;
+}
+
+.desctd {
+    font-family: Open Sans;
+  font-size: 14px;
+  line-height: 1.64;
+  color: #021a4f;
+
+}
+.desctitle{
+     font-family: Open Sans;
+  letter-spacing: 0.4px;
+  color: #021a4f;
+  font-size: 16px;
+  font-weight: 600;
+}
+.article{
+    padding: 10px;
+    font-family: Open Sans;
+  line-height: 1.63;
+  color: #4a4a4a;
+    font-size: 16px;
+}
+
+searchbox:hover{
+    cursor: help;
+}
+
+#applydiv{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url(../../img/apply.png);
+      padding-top: 50px;
+    padding-bottom: 50px;
+}
+#applyworddiv{
+    background-color: #021a4e;
+    position: relative;
+    margin: 20px;
+
+}
+#applyword{
+  font-family: Open Sans;
+   font-size: 58px;
+  font-weight: 800;
+  line-height: 1.59;
+  text-align: center;
+  color: #021a4f;
+  text-shadow: 0 2px 4px rgba(83, 83, 83, 0.48);
+    position: relative;
+    width: 80%;
+
+    object-fit: contain;
+
+}
+#applynow{
+    background-color: #021a4f;
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #e4c800;
+    font-family: Open Sans;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 1.59;
+    text-align: center;
+    width: auto;
+    position: relative;
+    /* width: 500px;*/
+    width: 40%;
+    margin-top: 50px;
+    object-fit: contain;
+
+}
+
+#git{
+    width: 946px;
+    height: 500px;
+    object-fit: contain;
+    background-color: #f7f7f7;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-bottom: 75px;
+    padding-bottom: 20px;
+    display: block;
+    float: none;
+}
+#gitfont{
+        font-family: Open Sans;
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 0.9px;
+        text-align: center;
+        color: #021a4f;
+}
+
+.inbox{
+    margin-bottom: 20px;
+}
+#message{
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+#contact{
+    width: 100%;
+    height: 100%;
+    background-color: #021a4e;
+    padding: 50px;
+    padding-left: 10%;
+}
+.contacttitle{
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+    padding-top: 13px;
+
+  color: #e4c800;
+  
+}
+.coll{
+     border-left: solid 1px #4d4d4d;
+}
+.colfont{
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+}
+.contacticon{
+    font-family: FontAwesome;
+    left:-5px;
+    position:absolute;
+    top:0;
+}
+#sobox{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+#ssobox{
+    margin: 7px;
+color: #ffffff;
+
+}
+#copyRight {
+    width: 100%;
+    background-color: #223663;
+    position: relative;
+
+}
+#CopyRightFont  {
+  font-family: Open Sans;
+  font-size: 11px;
+  color: #ffffff;
+  text-align:center;
+}
+.subbotton {
+  width: 149px;
+  height: 49px;
+  background-color: #021a4e;
+    border: 0;
+}
+#marg{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.zoomin  {
+    height: 400px;
+     width: 400px;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease; transition: all 2s ease;
+}
+ul {
+  list-style-type: none;
+    padding-left: 0;
+    line-height: 1.59;
+}
+
+@media only screen and (max-width: 500px) {
+#socialbox{
+    margin-right: 0;
+    margin-top: 5px;
+    float: right;
+}
+#pictext{
+    width: 100%;
+    float: none;
+    height: 170px;
+    right: 0;
+    position: relative;
+    margin: 0;
+    top:0;
+    right: 0;
+}
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#news{
+    width: 99%;
+}
+#sr{
+    height: auto;
+    object-fit: contain;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#applyword{
+     font-size: 38px;
+}
+#applynow{
+     font-size: 20px;
+
+}
+#evcards{
+
+    padding-left: 0;
+    padding-right: 0;
+
+}
+#git{
+    width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#gitfont{
+     font-size:16px;
+    font-weight: bold;
+}
+#ne{
+    padding: 0;
+    }
+.cube{
+    width: 100%;
+
+}
+#mainpic{
+    height: 150PX;
+}
+.menufont{
+
+  margin-right:0;
+}
+#menu{
+    height: auto;
+}
+
+}
